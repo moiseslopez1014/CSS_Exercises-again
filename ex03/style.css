@@ -1,0 +1,6 @@
+/* Practice of comments. this rule sets the h1 as a title centered, bigger and arial font*/
+h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: Arial;
+}
