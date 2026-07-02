@@ -1,0 +1,32 @@
+body {
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  grid-template-columns: 3fr 1fr;
+}
+
+.compartimento, .punta {
+  border: 8px solid black;
+}
+
+.compartimento {
+  height: 240px;
+  width: 85%;
+  display: flex;
+  gap: 1%;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 1%;
+}
+
+.compartimento > div {
+  background-color: green;
+  width: 22%;
+  height: 85%;
+}
+
+.punta {
+  height: 80px;
+  background-color: black;
+  width: 30px;
+}
