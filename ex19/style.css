@@ -1,0 +1,45 @@
+body {
+    padding: 15px 25px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    padding: 10px 15px;
+}
+
+header > div {
+    display: flex;
+    gap: 15px;
+}
+
+main {
+    background-color: bisque;
+}
+
+.banner {
+    position: fixed;
+    transform: translateX(-35px);
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    border: 3px dashed grey;
+    background-color: rgba(0, 200, 200, .9);
+}
+
+.main-content-container {
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 2em;
+    padding: 5px 15px;
+    text-shadow: 1px 1px 2px;
+}
+
