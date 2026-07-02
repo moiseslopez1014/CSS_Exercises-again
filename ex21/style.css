@@ -1,0 +1,16 @@
+body {
+    padding: 10px;
+}
+
+.cuadricula {
+    border: 3px solid goldenrod;
+    display: grid;
+    grid-template-columns: repeat( 3fr, 1fr );
+    gap: 12px;
+
+}
+
+.cuadricula > div {
+    background-color: blanchedalmond;
+    height: 50px;
+}
