@@ -1,0 +1,41 @@
+/* Root reset */
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+/* main card frame */
+
+.signup_card {
+    background-color: lightseagreen;
+    margin: 60px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/* forms */ 
+
+.signup_forms {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.signup_forms--items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 3px dotted blue;
+}
+
+.signup_button--inactive {
+    background-color: grey;
+}
+.signup_button--inactive:hover {
+    background-color: red;
+}
