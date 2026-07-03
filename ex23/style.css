@@ -1,0 +1,23 @@
+body {
+    padding: 2vw;
+}
+
+.cuadricula {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1%;
+}
+
+.cuadricula div {
+    width: 75px;
+    background-color: aquamarine;
+    border: 2px solid blue;
+    padding: 50px;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .cuadricula {
+        grid-template-columns: 1fr;
+    }
+}
