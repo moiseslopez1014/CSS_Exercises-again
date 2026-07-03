@@ -1,0 +1,9 @@
+.contenedor-imagen {
+    width: 10%;
+    border: 2px dashed burlywood;
+}
+
+.contenedor-imagen > img {
+    max-width: 100%;
+    height: auto;
+}
